@@ -1,13 +1,14 @@
-package edu.pavliuk.dean;
+package edu.pavliuk.show;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DeanApplication {
+public class ShowApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DeanApplication.class, args);
+        SpringApplication.run(ShowApplication.class, args);
     }
 
 }
+

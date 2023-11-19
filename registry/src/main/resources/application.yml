@@ -1,0 +1,14 @@
+eureka:
+  instance:
+    hostname: false
+
+  client:
+    service-url:
+      defaulZone: http://localhost:8761/eureka
+server:
+  port: 8070
+spring:
+  application:
+    name: regestry
+  config:
+    import: optional:configserver:http://localhost:8888

@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/discovery/pom.xml" />
         <option value="$PROJECT_DIR$/system-config/pom.xml" />
         <option value="$PROJECT_DIR$/dean/pom.xml" />
+        <option value="$PROJECT_DIR$/Examination/pom.xml" />
+        <option value="$PROJECT_DIR$/registry/pom.xml" />
+        <option value="$PROJECT_DIR$/Show/pom.xml" />
       </list>
     </option>
   </component>
