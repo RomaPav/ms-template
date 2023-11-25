@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 public class Department {
     private int id;
     private String name;
+    private String codeName;
     private String consultant;
     private String phone;
 

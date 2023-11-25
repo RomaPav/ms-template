@@ -26,4 +26,10 @@ public class ShowService {
     public List<Show> getLongShow(Long duration, Integer act){
         return showRepository.findByDurationGreaterThanEqualAndActGreaterThanEqual(duration,act);
     }
+    public List<Show> getLongShowForPhilarmonia(Long duration, Integer act){
+        return showRepository.findByDurationLessThanAndAct(duration,act);
+    }
+    public List<Show> getLongShowDram(Long duration, Integer act){
+        return showRepository.findByDurationGreaterThanEqualAndAct(duration,act);
+    }
 }

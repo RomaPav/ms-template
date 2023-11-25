@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface ShowRepository extends MongoRepository<Show, Integer> {
     List<Show> findByDurationGreaterThanEqualAndActGreaterThanEqual(Long duration,Integer act);
+    List<Show> findByDurationGreaterThanEqualAndAct(Long duration,Integer act);
+    List<Show> findByDurationLessThanAndAct(Long duration,Integer act);
 }

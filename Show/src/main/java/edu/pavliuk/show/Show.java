@@ -21,4 +21,15 @@ public class Show {
     String description;
     LocalDateTime createdAt;
     LocalDateTime updatedAt;
+
+    @Override
+    public String toString() {
+        return "id=" + id +
+                ", name='" + name + '\'' +
+                ", duration=" + duration +
+                ", act=" + act +
+                ", description='" + description + '\'' +
+                ", createdAt=" + createdAt +
+                ", updatedAt=" + updatedAt;
+    }
 }

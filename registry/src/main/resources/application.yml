@@ -12,3 +12,6 @@ spring:
     name: regestry
   config:
     import: optional:configserver:http://localhost:8888
+application:
+  config:
+    show-url: "http://localhost:8075/api/v1/shows"
