@@ -1,0 +1,15 @@
+eureka:
+  instance:
+    hostname: false
+
+  client:
+    service-url:
+      defaulZone: http://localhost:8761/eureka
+server:
+  port: 8070
+spring:
+  application:
+    name: regestry
+application:
+  config:
+    show-url: "http://localhost:8022/api/v1/shows"
